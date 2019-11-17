@@ -215,6 +215,7 @@ header.jumbotron {
     width: 100%;
     height: 15vh;
     object-fit: cover;
+    cursor: pointer;
 }
 
 /*------------------------TEAM--------------------------*/
@@ -314,6 +315,38 @@ header.jumbotron {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
+
+/*---------------MODAL---------------------*/
+
+.modal-lg {
+	text-align: center;
+	margin:auto;
+}
+
+.modal-content {
+	padding:50px 60px;
+}
+
+.modal-sub {
+	font-size: 15px;
+	font-style: italic;
+	font-weight: 500!important;
+}
+
+.modal-body-about {
+	padding-top: 30px;
+}
+
+.modal-img {
+	height: 300px;
+	width: 550px;
+}
+
+.modal-foot .btn {
+	margin:0px 5px;
+}
+
+
 
 
 
