@@ -218,6 +218,28 @@ header.jumbotron {
     cursor: pointer;
 }
 
+.cardOverlay {
+  display: inline-block;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(254, 209, 54, 0.9);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 70px;
+  transition: opacity .5s;
+}
+
+.overlay:hover {
+  opacity: 1;
+  transition: opacity .5s;
+}
+
 /*------------------------TEAM--------------------------*/
 #team {
 	text-align: center;
@@ -344,6 +366,8 @@ header.jumbotron {
 
 .modal-foot .btn {
 	margin:0px 5px;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
 }
 
 
